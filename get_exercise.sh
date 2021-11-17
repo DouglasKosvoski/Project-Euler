@@ -22,4 +22,5 @@ if [ "$#" -ne 1 ]; then
     printf "Illegal number of parameters. Be sure to pass 'arg1' as <exercise_number>\n"
 else
   get_exercise $1
+  echo "https://projecteuler.net/problem=$1"
 fi
