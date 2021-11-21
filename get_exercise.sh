@@ -14,7 +14,7 @@ get_exercise() {
   fi
 
   # Display html in a more readable form
-  clear && cat "$EXERCISES/$1.html" | w3m -dump -T text/html | cowsay | lolcat
+  clear && cat "$EXERCISES/$1.html" | w3m -dump -T text/html | lolcat
 }
 
 # Check how many args were passed to the script
