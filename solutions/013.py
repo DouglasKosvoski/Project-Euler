@@ -114,3 +114,4 @@ for line in number:
 
 limit = 10
 answer = str(sum)[0:limit]
+print(answer)
